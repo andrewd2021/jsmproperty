@@ -29,7 +29,7 @@ $("[data-background]").each(function () {
 =============================================*/
 //SubMenu Dropdown Toggle
 if ($('.menu-area li.menu-item-has-children ul').length) {
-	$('.menu-area .navigation li.menu-item-has-children').append('<div class="dropdown-btn"><span class="fas fa-angle-down"></span></div>');
+	$('.menu-area .navigation li.menu-item-has-children').append('<div class="dropdown-btn"><span class="icofont-simple-down"></span></div>');
 }
 //Mobile Nav Hide Show
 if ($('.mobile-menu').length) {
@@ -137,7 +137,7 @@ $('.ucm-active').owlCarousel({
 	autoplay: false,
 	autoplayTimeout: 5000,
 	autoplaySpeed: 1000,
-	navText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'],
+	navText: ['<i class="icofont-simple-left"></i>', '<i class="icofont-simple-right"></i>'],
 	nav: true,
 	dots: false,
 	responsive: {
@@ -176,7 +176,7 @@ $('.ucm-active-two').owlCarousel({
 	autoplay: false,
 	autoplayTimeout: 5000,
 	autoplaySpeed: 1000,
-	navText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'],
+	navText: ['<i class="icofont-simple-left"></i>', '<i class="icofont-simple-right"></i>'],
 	nav: true,
 	dots: false,
 	responsive: {
